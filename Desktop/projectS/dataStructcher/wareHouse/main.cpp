@@ -416,7 +416,7 @@ int main()
             cout << "enter your password :" << endl;
             cin >> password;
 
-            if (password != "admin123")
+            if (password != "123")
             {
                 cout << RED << "Wrong password! Returning to main menu.\n" << RESET;
                 continue;
@@ -516,7 +516,7 @@ int main()
                 else if (cmd == "back" || cmd=="5")
                 {
                     cout << YELLOW << "Returning to main menu...\n" << RESET;
-                    break; // ✅ برگشت به منوی اصلی
+                    break;                
                 }
                 else
                 {
